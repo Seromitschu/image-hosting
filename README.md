@@ -20,7 +20,8 @@
 <h1>Getting Started</h1>
 
 > - Download project and open in your code editor.
-> - Run ``index.js``.
+> - Open terminal and install modules with ``npm install``.
+> - Type ``npm start`` and go ``localhost:8080``
 
 **Now you can customize and use the website according to you!**
 
