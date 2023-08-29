@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --softBlack: #242424;
+  --blue: #9CEAF3;
+  --pink: #F78F85;
+  --red: #F5544D;
+  --yellow: #FABD2F;
+  --green: #47D043;
+  --wheat: #F0D098;
+  --navyBlue: #6A77D2;
+  --turquoise: #9CEAF3;
+  --sucessGreen: #5AD786;
+  --errorRed: #F78F85;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::selection {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+body {
+  padding-top: 40px;
+  padding-left: 150px;
+  padding-right: 150px;
+  background: var(--black);
+  color: var(--light-1);
+  font-family: 'Poppins', cursive;
+  margin: 0;
+}
+
+h1, h3, h4, h5, h6 {
+  color: var(--red);
+  font-weight: bolder;
+  margin: 5px 0;
+}
+
+h2 {
+  color: var(--navyBlue)
+}
+
+p { margin: 0; margin-bottom: 40px; }
+
+a {
+  font-weight: bold;
+  color: var(--green);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+main {
+  width: calc(100% - 20);
+  height: calc(100vh - 70px);
+  overflow: auto;
+}
+
+footer {
+  font-weight: 600;
+  border-radius: 10px;
+  color: var(--wheat);
+  background: var(--softBlack);
+  padding: 10px;
+  text-align: center;
+  margin-top: 40px;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+button {
+  width: 37.2%;
+  border: none;
+  outline: 0;
+  border-radius: 5px;
+  padding: 10px;
+  transition: background .2s;
+  font-family: 'Poppins', cursive;
+  font-weight: bold;
+  background: var(--softBlack);
+  color: var(--green);
+  font-size: 150%;
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--softBlack);
+}
+
+.btn {
+  margin: 4px 0;
+  display: block;
+  border: none;
+  outline: 0;
+  border-radius: 5px;
+  padding: 10px;
+  color: var(--green);
+  transition: background .2s;
+  font-family: 'Poppins', cursive;
+  font-weight: bold;
+  background: var(--softBlack);
+  font-size: 100%;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: var(--softBlack);
+}
+
+.uploadButtonDiv {
+  float: left;
+  border-radius: 8px;
+  text-align: center;
+  width: 130px;
+  height: 27px;
+  background-color: var(--softBlack);
+}
+
+.uploadButton {
+  padding-top: 15px;
+  color: var(--yellow);
+  text-decoration: none;
+}
+
+.sourceButtonDiv {
+  float: right;
+  margin-right: 730px;
+  border-radius: 8px;
+  text-align: center;
+  width: 140px;
+  height: 27px;
+  background-color: var(--softBlack);
+}
+
+.sourceButton {
+  padding-top: 15px;
+  color: var(--yellow);
+  text-decoration: none;
+}
+
+.homeButtonDiv {
+  float: left;
+  border-radius: 8px;
+  text-align: center;
+  width: 140px;
+  height: 27px;
+  background-color: var(--softBlack);
+}
+
+.homeButton {
+  padding-top: 15px;
+  color: var(--yellow);
+  text-decoration: none;
+}
+
+.text {
+  color: var(--white);
+  font-weight: 500;
+}
+
+.uploadBody {
+  padding-top: 50px;
+  padding-left: 160px;
+  padding-right: 160px;
+}
+
+.successBody {
+  padding-top: 50px;
+  padding-left: 160px;
+  padding-right: 160px;
+}
+
+@media only screen and (max-width: 640px) {
+  body {
+    padding: 50px;
+  }
+
+  button {
+    width: 240px;
+  }
+
+  .btn {
+    width: 220px;
+  }
+
+  .sourceButtonDiv {
+    float: left;
+    margin-right: 0px!important;
+  }
+
+  .homeButtonDiv {
+    margin-top: 10px;
+  }
+
+  .uploadButtonDiv {
+    width: 110px;
+    margin-right: 10px;
+  }
+}

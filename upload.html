@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css" ntegrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+      <link rel='icon' type='image/png' href='websiteIcon.png'>
+    <title>Seromitschu</title>
+  </head>
+  <body>
+    <h1>Seromitschu IHS <i class="fa-solid fa-image"></i></h1>
+      <p class="text">"A simple way to host your images."</p>
+      <div style="margin-right: 720px;" class="sourceButtonDiv">
+        <a class="sourceButton" target="_blank" href="https://github.com/Seromitschu/image-hosting/">Source Code <i class="fa-brands fa-github"></i></a>
+      </div>
+      <div class="homeButtonDiv">
+        <a class="homeButton" href="/">Homepage <i class="fa-solid fa-house"></i></a>
+      </div>
+    <br><br><br>
+    <main>
+    <form method="POST" action="/upload" enctype="multipart/form-data">
+      <input name="data" type="file" accept="image/*" class="btn" required>
+      <button type="submit">Upload <i class="fa-solid fa-file-arrow-up"></i></button>
+    </form>
+    <footer>Made by <a target="_blank" href="https://seromitschu.vercel.app">Seromitschu</a>. Made with ❤️</footer>
+    </main>
+  </body>
+</html>
